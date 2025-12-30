@@ -18,6 +18,7 @@ print_error() {
 
 print_step "Installing homebrew ..."
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 print_step "Installing yadm ..."
 brew install yadm zsh gnupg mise
