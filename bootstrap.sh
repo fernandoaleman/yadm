@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 print_step() {
   printf "\n\033[1;34m==> %s\033[0m\n" "$1"
@@ -21,7 +21,7 @@ print_step "Installing homebrew ..."
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 print_step "Installing yadm ..."
-brew install yadm zsh gnupg mise
+brew install yadm zsh gnupg
 
 print_step "Installing dotfiles ..."
 yadm clone https://github.com/fernandoaleman/dotfiles.git
