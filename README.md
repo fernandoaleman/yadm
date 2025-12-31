@@ -17,5 +17,5 @@ The `bootstrap.sh` script automates the initial setup of a new macOS system by:
 ## Usage
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/fernandoaleman/yadm/master/bootstrap.sh | sh
+curl -L https://raw.githubusercontent.com/fernandoaleman/yadm/master/bootstrap.sh | sudo bash
 ```
